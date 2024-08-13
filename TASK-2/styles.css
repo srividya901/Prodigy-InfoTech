@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0827f0; /* Soft blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #stopwatch {
+    background-color: #44f30a; /* Clean white background */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(217, 232, 3, 0.2); /* Soft shadow */
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  #display {
+    font-size: 3em;
+    color: #333; /* Dark gray for text */
+    margin-bottom: 20px;
+  }
+  
+  #controls {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px; /* Rounded buttons */
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  #start {
+    background-color: #09e0ef; /* Green color for start */
+    color: #fff;
+  }
+  
+  #stop {
+    background-color: #ff5722; /* Orange color for stop */
+    color: #fff;
+  }
+  
+  #reset {
+    background-color: #2196f3; /* Blue color for reset */
+    color: #fff;
+  }
+  
+  button:hover {
+    transform: scale(1.05); /* Slightly larger on hover */
+  }
+  
+  #start:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  #stop:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+  }
+  
+  #reset:hover {
+    background-color: #1976d2; /* Darker blue on hover */
+  }
+  
